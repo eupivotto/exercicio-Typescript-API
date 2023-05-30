@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/stylle.css">
+    <title>FIPECARBR</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topo">
+            <img class="topo__img" src="./img/FIPECAR.png" alt="">
+            <div class="topo-button">
+                <button class="topo__btn"><a href="http://www.gama.academy/">Gama Academy</a></button>
+                <button class="topo__btn"><a href="http://www.lucaspivotto.com/">Lucas Pivotto</a></button>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <div class="container-tabela">
+            <h1 class="container-tabela__h1">Tabela Fipe - Mercado Nacional</h1>
+            <h3 class="container-tabela__h3">Veja a tabela de veículos!</h3>
+        
+            <button class="container-tabela__button button-btn" id="button-get" onclick="handleGetModelos()">Ver Tabela</button>
+            <br>
+            
+        <ul id="modelos">
+            <!-- <li>
+                <div class="conteudo-modelo">
+                    <p class="conteudo-modelo__titulo">Modelo</p>
+                    <p class="conteudo-modelo__codigo">121212</p>
+                    <p class="conteudo-modelo__nome">Nome</p>
+                    <button class="conteudo-modelo__link"><a href="">Ver Modelo</a></button>
+                </div>
+            </li>    -->
+        </ul>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
